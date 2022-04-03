@@ -1,3 +1,18 @@
-body{
+html{
+    color: white;
+    scroll-behavior: auto !important;
+}
+div{
+    font-family: Raleway;
+    font-weight: 200;
+}
+nav p {
+    margin: 0;
+}
+.cuerpo{
     background-color: black;
+}
+h1{
+    color: white;
+    font-weight: bold;
 }
