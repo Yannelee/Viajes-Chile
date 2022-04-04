@@ -10,13 +10,13 @@ $(document).ready(function(){
     var gato = this.hash
 
     $("html, body").animate({
-        scrollTop: $(gato).offset().top     },
+        scrollTop: $(gato).offset().top - 10     },
     800
     )
  });
 
  $(window).scroll(function() {
-    if ($(document).scrollTop() > 1700) { 
+    if ($(document).scrollTop() > 900) { 
     $(".navbar").css("background-color", "#000000");
     } else {
     $(".navbar").css("background-color", "transparent");
