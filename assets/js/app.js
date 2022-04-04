@@ -3,6 +3,7 @@ var tooltipTriggerList =
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+
 $(document).ready(function(){
 
  $("a").click(function (){
@@ -12,7 +13,6 @@ $(document).ready(function(){
         scrollTop: $(gato).offset().top     },
     800
     )
-   
  });
 
  $(window).scroll(function() {
@@ -21,6 +21,6 @@ $(document).ready(function(){
     } else {
     $(".navbar").css("background-color", "transparent");
     }
-});
+ });
   
 })
