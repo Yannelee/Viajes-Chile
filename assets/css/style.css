@@ -1,18 +1,32 @@
-html{
-    color: white;
-    scroll-behavior: auto !important;
+html {
+  color: white;
+  scroll-behavior: auto !important;
 }
-div{
-    font-family: Raleway;
-    font-weight: 200;
+div {
+  font-family: Raleway;
+  font-weight: 200;
 }
 nav p {
-    margin: 0;
+  margin: 0;
 }
-.cuerpo{
-    background-color: black;
+.cuerpo {
+  background-color: black;
 }
-h1{
+h2 {
+  color: white;
+  font-weight: lighter;
+}
+
+/* .text-somos {
     color: white;
-    font-weight: bold;
+} */
+
+i,
+label {
+  color: white;
+}
+
+.icons-footer {
+  font-size: xx-large;
+  padding: 0.5em 0.5em;
 }
