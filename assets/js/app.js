@@ -13,5 +13,14 @@ $(document).ready(function(){
     800
     )
    
+ });
+
+ $(window).scroll(function() {
+    if ($(document).scrollTop() > 1700) { 
+    $(".navbar").css("background-color", "#000000");
+    } else {
+    $(".navbar").css("background-color", "transparent");
+    }
 });
+  
 })
