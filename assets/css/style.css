@@ -30,3 +30,8 @@ label {
   font-size: xx-large;
   padding: 0.5em 0.5em;
 }
+
+.card-body {
+  color: white;
+  background-color: #0DCAF0;
+}
