@@ -34,4 +34,10 @@ label {
 .card-body {
   color: white;
   background-color: #0DCAF0;
+  height: 180px;
 }
+
+.card-img-top {
+  height: 170px;
+}
+
