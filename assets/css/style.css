@@ -17,10 +17,19 @@ h2 {
   font-weight: lighter;
 }
 
-/* .text-somos {
-    color: white;
-} */
+div.card {
+  background-color: none;
+  border: none;
+}
 
+.text-somos {
+  color: white;
+  text-align: justify;
+}
+
+/* .card-border {
+  border-color: black solid 2px;
+} */
 i,
 label {
   color: white;
