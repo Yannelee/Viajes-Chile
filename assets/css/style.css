@@ -22,7 +22,7 @@ div.card {
   border: none;
 }
 .icons-somos {
-  background-color: #0DCAF0;
+  background-color: #0dcaf0;
   color: white;
   display: block;
   padding: 0.5em;
@@ -32,9 +32,6 @@ div.card {
   text-align: justify;
 }
 
-/* .card-border {
-  border-color: black solid 2px;
-} */
 i,
 label {
   color: white;
@@ -47,11 +44,10 @@ label {
 
 .card-body {
   color: white;
-  background-color: #0DCAF0;
-  height: 180px;
+  background-color: #0dcaf0;
+  height: 14em;
 }
 
 .card-img-top {
   height: 170px;
 }
-
