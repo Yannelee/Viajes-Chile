@@ -45,9 +45,12 @@ label {
 .card-body {
   color: white;
   background-color: #0dcaf0;
-  height: 14em;
+  height: 12em;
 }
-
+.card-title {
+  font-size: medium;
+}
 .card-img-top {
-  height: 170px;
+  max-height: 8em;
+  width: auto;
 }
